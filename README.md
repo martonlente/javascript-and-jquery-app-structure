@@ -68,8 +68,10 @@ $(init);
 - Initialize functions and methods in the file they were declared in, if possible.
 - Use the module pattern design pattern to write code that contains both public and private logic. (Modules reference here any piece of code that is distinct, and not _Modules_ as prescribed by ECMASript specifications.)
 
+Declare the module object, and create its methods by an IIFE.
+
 ``` js
-var feature = {
+var feature = (function() {
   // Private code
   return {
     // Public code
@@ -77,7 +79,7 @@ var feature = {
       // Code
     }
   };
-};
+}());
 ```
 
 ### Others
