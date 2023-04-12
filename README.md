@@ -86,6 +86,7 @@ var feature = (function() {
 - Use classes to select items, if possible, e.g. `$('.js-item')`.
 - Use classes prefixes in your HTML for JavaScript selectors, e.g. `js-`.
 - Use JavaScript and jQuery for behavior only, even if a method is available for presentation. For example write `$('.js-item').addClass('d-none');` instead of `$('.js-item').hide();`.
+- Use the [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html) for code formatting.
 
 ## Roadmap
 - Add naming conventions variables
