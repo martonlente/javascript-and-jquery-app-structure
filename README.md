@@ -82,6 +82,13 @@ var feature = (function() {
 }());
 ```
 
+- Use the `.on()` method to handle all events instead of seperate methods, e.g. `.click()`.
+```js
+$('.js-btn').on('click', function() {
+  // Code
+});
+```
+
 ### Others
 - Use classes to select items, if possible, e.g. `$('.js-item')`.
 - Use classes prefixes in your HTML for JavaScript selectors, e.g. `js-`.
